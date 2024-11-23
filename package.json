@@ -7,7 +7,8 @@
 		"prettier",
 		"eslint",
 		"jest",
-		"typescript"
+		"typescript",
+		"templates"
 	],
 	"exports": {
 		"./eslint/node": "./eslint/node.mjs",
