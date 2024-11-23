@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+		"module": "CommonJS",
+		"outDir": "${configDir}/dist",
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"paths": {
+			"*": ["${configDir}/src/*", "${configDir}/src/lib/*"]
+		}
+	},
+	"include": ["${configDir}/**/*.ts", "${configDir}/**/*.tsx"],
+	"exclude": [
+		"${configDir}/**/dist**",
+		"${configDir}/**/tmp/**",
+		"${configDir}/**/node_modules**"
+	]
+}

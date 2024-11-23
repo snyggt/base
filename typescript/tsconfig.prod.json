@@ -1,0 +1,17 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"outDir": "${configDir}/dist",
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"emitDeclarationOnly": true,
+		"declaration": true,
+		"allowJs": true
+	},
+	"exclude": ["${configDir}/**/dist**", "${configDir}/**/*.test.ts"],
+	"include": [
+		"${configDir}/**/*.ts",
+		"${configDir}/**/*.tsx",
+		"${configDir}/**/*.sh"
+	]
+}
