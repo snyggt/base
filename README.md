@@ -1,4 +1,4 @@
-# @snygt/base
+# @snyggt/base
 
 ## Install
 
