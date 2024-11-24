@@ -1,6 +1,6 @@
 {
 	"name": "@snyggt/base",
-	"version": "0.1.0",
+	"version": "0.0.1",
 	"description": "Base configurations",
 	"main": "index.js",
 	"files": [
@@ -22,9 +22,10 @@
 	"author": "",
 	"license": "ISC",
 	"peerDependencies": {
-		"jest": ">=29.7.0",
-		"tsup": ">=8.3.5",
-		"typescript": ">=5.6.3"
+		"jest": "29.7.x",
+		"typescript": "5.6.x",
+		"eslint": "9.13.x",
+        "prettier": "3.3.x"
 	},
 	"prettier": "@snyggt/base/prettier",
 	"dependencies": {
@@ -40,7 +41,6 @@
 		"hello-world-npm": "^1.1.1",
 		"jest": "29.7.0",
 		"ts-jest": "29.2.5",
-		"tsup": "8.3.5",
 		"typescript": "5.6.3",
 		"typescript-eslint": "8.11.0"
 	},
